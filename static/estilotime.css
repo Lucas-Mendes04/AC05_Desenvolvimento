@@ -1,0 +1,186 @@
+body{
+    background: #0f1519;
+}
+
+h1{
+    text-align: center;
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-size: 50px;
+    color: rgb(253, 253, 253);
+    
+}
+/*Lista com configurações o menu*/
+ul.menu {
+    position: relative;
+    list-style-type: none;
+    margin: 30px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #006bb6;
+    border-radius: 5px;
+    top:10px;
+    width:97%;
+    right:100%;
+    left:0%;    
+}
+
+li.menu {    
+    float:left;
+    font-family: Verdana;
+	margin-left:5%;	
+	width:13%;
+    
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 0px;
+    text-decoration:none;
+    font-size: 20px;
+}
+  
+li a:hover {
+    background-color: #7b9cb3;
+}
+
+.logo {
+	margin-left:25%;
+	width:1000px;
+    height:400px;
+} 
+
+.bulls {
+    margin-left:5%;
+    width:150px;
+    height:150px;
+}
+
+.lakers {
+    margin-left:5%;
+    width:200px;
+    height:150px;
+}
+
+.orlando {
+    margin-left:5%;
+    width:150px;
+    height:150px;
+}
+
+.miami {
+    margin-left:5%;
+    width:150px;
+    height:170px;
+}
+
+.cleveland {
+    margin-left:5%;
+    width:150px;
+    height:150px;
+}
+p.a2 {
+    color: rgb(10, 6, 6);
+    font-size: 25px;
+    text-align: justify;
+    margin-right: 40px;
+    font-family: Verdana;
+    border-color: rgb(17, 12, 12);
+    border-style: outset;
+    background-color: #d3d3d3fa;
+    width: 1820px;
+    border-radius: 10px;
+    box-shadow: rgb(0,0,0,0.4) 5px 5px 0;
+}
+
+li.lista1 {
+    float: center;
+    margin: 50px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: block;
+    color: rgb(253, 253, 253);
+    padding: 15px 70px;
+    text-decoration: none;
+    font-size: 25px;
+    border-color: rgb(248, 5, 5);
+    border-style: outset;
+    background-color: #0a0a0a;
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: rgb(0,0,0,0.4) 5px 5px 0;
+    
+}
+li.lista2 {
+    float: center;
+    margin: 50px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: block;
+    color: rgb(250, 245, 245);
+    padding: 15px 70px;
+    text-decoration: none;
+    font-size: 20px;
+    border-color: rgb(225, 240, 16);
+    border-style: outset;
+    background-color: #ec2657c0;
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: rgb(0,0,0,0.4) 5px 5px 0;
+    
+}
+li.lista3 {
+    float: center;
+    margin: 50px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: block;
+    color: rgb(250, 245, 245);
+    padding: 15px 70px;
+    text-decoration: none;
+    font-size: 25px;
+    border-color: rgb(81, 72, 253);
+    border-style: outset;
+    background-color: #0f2a5e;
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: rgb(0,0,0,0.4) 5px 5px 0;
+    
+}
+li.lista4 {
+    float: center;
+    margin: 50px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: block;
+    color: rgb(250, 248, 248);
+    padding: 15px 70px;
+    text-decoration: none;
+    font-size: 25px;
+    border-color: rgb(5, 1, 1);
+    border-style: outset;
+    background-color: #ec2019;
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: rgb(0,0,0,0.4) 5px 5px 0;
+    
+}
+li.lista5 {
+    float: center;
+    margin: 50px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: block;
+    color: rgb(252, 244, 244);
+    padding: 15px 70px;
+    text-decoration: none;
+    font-size: 25px;
+    border-color: rgb(235, 231, 16);
+    border-style: outset;
+    background-color: #d40cee;
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: rgb(0,0,0,0.4) 5px 5px 0;
+}

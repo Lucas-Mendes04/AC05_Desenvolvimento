@@ -1,0 +1,83 @@
+body{
+    background: #0f1519;
+}
+
+h1{
+    text-align: center;
+}
+
+/*Estilo para o menu*/
+ul.menu {
+    position: relative;
+    list-style-type: none;
+    margin: 30px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #006bb6;
+    border-radius: 5px;
+    top:10px;
+    width:97%;
+    right:100%;
+    left:0%;
+    
+}
+  
+li.menu {
+    
+    float:left;
+    font-family: Verdana;
+	margin-left:5%;	
+	width:13%;
+    
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 0px;
+    text-decoration:none;
+    font-size: 20px;
+}
+  
+li a:hover {
+    background-color: #7b9cb3;
+}
+
+.logo {
+	margin-left:25%;
+	width:1000px;
+    height:400px;
+}
+/*Estilo para o formulário*/
+.cadastro{
+    position: relative;        
+    border: 1px solid;
+    width: 600px;
+    right:30%;
+    left: 30%;
+    height:500px;
+
+}
+label.titulo{
+    color:white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:35px;
+    text-align: center;
+}
+input.entrada{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: blue;
+}
+select.selct{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: blue;
+}
+fieldset{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-image: url('imagens/bola2.png');
+}
