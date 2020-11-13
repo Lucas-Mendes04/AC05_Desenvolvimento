@@ -17,26 +17,20 @@
     </ul> 
     
     <div class="cadastro">
-        <form action="cadastra" method="POST">
+        <form action="cadastrar" method="POST">
             <fieldset>
                 <legend>Novo Jogador</legend>
                 <label class="titulo">Nome Completo:</label>
                     <input class="entrada" type="text" maxlength="60" name="nome" placeholder="Digite seu nome completo: "><br/><br/>
                 <label class="titulo">Idade:</label>
                     <input class="entrada" type="number" id="idadeNum" name="idade" placeholder="Digite sua idade: "><br/><br/>
-                <label class="titulo">Posição: </label>
-                    <select class="selct" name="select">
-                        <option value="armador" selected>Armador Principal</option> 
-                        <option value="ala_armador">Ala Armador</option>
-                        <option value="lateral">Ala</option>
-                        <option value="ala_pivo" >Ala Pivô</option>
-                        <option value="pivo">Pivô</option>
-                </select><br/><br/>
-                <label class="titulo">Altura:</label>
+                    <label class="titulo">Posição:</label>
+                    <input class="entrada" type="text" name="posicao" placeholder="Digite sua posição: "><br/><br/>
+                    <label class="titulo">Altura:</label>
                     <input class="entrada" type="number" id="altNum"  name="altura" placeholder="Digite sua altura: "><br/><br/>
                 <label class="titulo">Peso:</label>
                     <input class="entrada" type="number" id="pesoNum"  name="peso" placeholder="Digite sua peso: "><br/><br/>
-                <input class="entrada" type="button" value="Enviar" onclick="validar()">
+                <input class="entrada" type="submit" value="Enviar">
                 <input class="entrada" type="reset" value="Limpar">
             </fieldset>
         </form>
